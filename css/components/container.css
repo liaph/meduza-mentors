@@ -1,0 +1,54 @@
+
+.container {
+  width: 1400px;
+  margin: 60px auto;
+}
+.center {
+  width: 1400px;
+  margin-top: 40px;
+  padding: auto;
+  text-align: center;
+  border-top: auto;
+}
+
+.center h2 {
+  font-size: 30px;
+  padding:-2.9px -2.9px;
+  border: 2px 2px;
+  margin-top: 0px;
+  margint-bottom: 0px;
+  border-top: 0px;
+
+
+}
+
+
+@media (max-width: 1200px) {
+  .container
+  {
+  width: 1000px;
+    }
+  }
+
+@media (max-width: 960px) {
+  .container
+  {
+  width: 700px;
+    }
+  }
+
+@media (max-width: 720px) {
+  .container
+  {
+  width: 500px;
+    }
+  }
+
+@media (max-width: 540px) {
+  .container
+  {
+  width: 300px;
+    }
+  }
+
+
